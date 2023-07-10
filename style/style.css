@@ -52,6 +52,84 @@
 /* header style end  */
 
 /* section style Start  */
+.our-featured {
+    max-width: 1140px;
+    padding: 90px;
+}
+
+.our-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.our-title-two {
+    padding-top: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+}
+
+.our-description {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.our-card {
+    display: flex;
+    gap: 70px;
+    justify-content: space-evenly;
+}
+
+.card-one {
+    background-color: #e5547391;
+    border-radius: 200px 200px 0px 0px;
+    width: 320px;
+    height: 328px;
+}
+
+.card-two {
+    background-color: #54e5d481;
+    border-radius: 200px 200px 0px 0px;
+    width: 320px;
+    height: 328px;
+}
+
+.card-three {
+    background-color: #54e57165;
+    border-radius: 200px 200px 0px 0px;
+    width: 320px;
+    height: 328px;
+}
+
+.card-one img {
+    padding-top: 77px;
+    margin: 2px 49px 0 55px;
+    width: 180px;
+}
+
+.card-two img {
+    padding-top: 110px;
+    margin: 2px 50px 0 75px;
+    width: 180px;
+}
+
+.card-three img {
+    padding-top: 57px;
+    margin: 2px 49px 0 76px;
+    width: 180px;
+}
+
 .section-two {
     background: rgba(228, 80, 112, 0.1);
     padding-top: 128px;
@@ -76,10 +154,11 @@
 }
 
 /* show section style start  */
-.show-section{
-    padding: 100px;
+.show-section {
     max-width: 1140px;
+    padding: 100px;
 }
+
 .instagram-title {
     text-align: center;
 }
@@ -92,39 +171,45 @@
     width: 594px;
     padding: 12px;
 }
-.offer-card{
+
+.offer-card {
     padding-top: 30px;
     display: flex;
     gap: 10px;
     align-items: center;
     justify-content: space-evenly;
 }
-.offer-card img{
+
+.offer-card img {
     width: 220px;
 }
+
 /* last section start hare  */
-.last-section{
-    margin: 44px ;
+.last-section {
+    margin: 44px;
     background-image: url('../images/Rectangle\ 9.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 360px;
 }
-.last-title{
+
+.last-title {
     color: #272727;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     padding-top: 120px;
 }
-.last-description{
+
+.last-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.input-text{
+
+.input-text {
     width: 400px;
     height: 50px;
     border-radius: 8px;
@@ -136,18 +221,20 @@
 /* show section style end  */
 /* section style End  */
 /* footer style start  */
-footer{
+footer {
     background: #171617;
     height: 300px;
 }
-.footer-title{
+
+.footer-title {
     color: white;
     text-align: center;
     padding-top: 80px;
     font-size: 48px;
     font-weight: 800;
 }
-.footer-description{
+
+.footer-description {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     margin: auto;
@@ -156,11 +243,12 @@ footer{
     width: 625px;
     padding: 10px;
 }
-#footer-last{
+
+#footer-last {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
     font-size: 18px;
     font-weight: 400;
-    /* margin: auto; */
 }
+
 /* footer style end  */
