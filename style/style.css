@@ -5,18 +5,21 @@
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
 }
+
 .peraimary-btn {
     padding: 10px;
     border: 0;
     border-radius: 8px;
     background: #E55473
 }
-.text-peraimary{
+
+.text-peraimary {
     color: #E55473
 }
+
 /* header style start  */
 .header-section {
-    background: rgba(229, 84, 115, 0.10);
+    background: rgba(228, 80, 112, 0.1);
     height: 750px;
     display: flex;
     align-items: center;
@@ -31,12 +34,14 @@
 .header-one {
     width: 708px;
 }
-.title-header{
+
+.title-header {
     color: #272727;
     font-size: 60px;
     font-weight: 800;
 }
-.header-description{
+
+.header-description {
     padding: 20px 0;
 }
 
@@ -44,18 +49,56 @@
 /* header style end  */
 
 /* section style Start  */
-.section-two{
+.section-two {
+    background: rgba(228, 80, 112, 0.1);
     padding-top: 128px;
     padding-bottom: 100px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.offer-section-one{
+
+.section-two img {
+    margin-right: 86px;
+}
+
+.offer-section-one {
     text-align: center;
     width: 480px;
+    margin-left: 50px;
 }
-.offer-description{
+
+.offer-description {
     padding: 20px 0;
 }
+
+/* show section style start  */
+.show-section{
+    padding: 100px;
+    max-width: 1140px;
+}
+.instagram-title {
+    text-align: center;
+}
+
+.instagram-description {
+    color: rgba(39, 39, 39, 0.60);
+    margin: 0 auto;
+    font-size: 18px;
+    text-align: center;
+    width: 594px;
+    padding: 12px;
+}
+.offer-card{
+    padding-top: 30px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.offer-card img{
+    width: 220px;
+}
+
+/* show section style end  */
 /* section style End  */
