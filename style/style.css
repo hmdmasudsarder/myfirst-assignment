@@ -158,7 +158,18 @@
     max-width: 1140px;
     padding: 100px;
 }
-
+/* bouns section style  */
+.bouns-section{
+    display: flex;
+    gap: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.img-bouns img{
+    width: 100%;
+    margin-bottom: 9px;
+    border-radius: 10px;
+}
 .instagram-title {
     text-align: center;
 }
